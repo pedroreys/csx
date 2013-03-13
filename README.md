@@ -16,12 +16,18 @@ csx is a simple executable. Just add it to your path and you should be good to g
 Running
 ===
 with csx on you path, do:
+
     c:>csx
     >1 +3
     4
-    >var foo = "bar";
-    
+    >var foo = "bar";    
     >foo
+    bar
+    >var fizz = "buzz";
+    >fizz
+    buzz
+    >fizz = foo;
+    >fizz
     bar
     >exit()
     c:>
